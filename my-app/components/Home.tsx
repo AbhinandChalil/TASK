@@ -85,7 +85,7 @@ const faqs = [
 export default function HeroSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col justify-between font-montserrat">
+    <div className="bg-black text-white min-h-screen flex flex-col justify-between font-montserrat sm:px-6 md:px-10 lg:px-20 xl:px-32 max-w-screen-2xl">
     <div className='fixed top-0 left-0 w-full h-screen z-0'> 
     <img
     src="/bricks.jpg"
@@ -140,16 +140,16 @@ export default function HeroSection() {
         <div className="grid md:grid-cols-2 gap-6">
         <div className='rounded-xl shadow-lg hover:scale-110 hover:shadow-2xl transform transition duration-300 ease-in-out'>
          <video
-  className="w-full h-auto "
-  autoPlay
-  loop
-  muted
-  playsInline
->
-  <source src="/Myprojects.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-</div>  
+           className="w-full h-auto "
+           autoPlay
+           loop
+           muted
+           playsInline
+        >
+        <source src="/Myprojects.mp4" type="video/mp4" />
+           Your browser does not support the video tag.
+        </video>
+      </div>  
 
 
 
