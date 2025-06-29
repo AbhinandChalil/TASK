@@ -195,12 +195,12 @@ export default function HeroSection() {
         <div className="text-center text-gray-500 text-sm mt-10 z-10">
           <p className="mb-0 text-[16px]">As seen and loved on:</p>
         </div>
- <div className="relative w-full h-20 overflow-hidden bg-black">
-  <div className="flex w-[200%] animate-scroll">
-    <img src="/add-pic.png" alt="logos" className="h-20 w-auto" />
-    <img src="/add-pic.png" alt="logos" className="h-20 w-auto" />
-  </div>
-</div>
+        <div className="relative w-full h-20 overflow-hidden bg-black">
+          <div className="flex w-[200%] animate-scroll">
+            <img src="/add-pic.png" alt="logos" className="h-20 w-auto" />
+            <img src="/add-pic.png" alt="logos" className="h-20 w-auto" />
+          </div>
+        </div>
 
 
 
@@ -373,30 +373,30 @@ export default function HeroSection() {
 
 {/*Services*/}
 
-         <section id="services" className="px-4 md:px-20 py-20 text-center z-10">
-        <div className="inline-block bg-yellow-500/10 text-yellow-300 px-4 py-1 rounded-full text-sm mb-6">
+<section id="services" className="px-4 md:px-20 py-20 text-center z-10">
+    <div className="inline-block bg-yellow-500/10 text-yellow-300 px-4 py-1 rounded-full text-sm mb-6">
           Services
-        </div>
-        <h2 className="text-[54px] font-200 leading-snug mb-12">
+    </div>
+    <h2 className="text-[54px] font-200 leading-snug mb-12">
           All you want, <br /> delivered on time
-        </h2>
+    </h2>
 
-  <div className="relative w-[50%] mx-auto overflow-hidden rounded-xl space-y-6">
+    <div className="relative w-[50%] mx-auto overflow-hidden rounded-xl space-y-6">
   
-  <div className="pointer-events-none absolute left-0 top-0 h-full w-10 bg-gradient-to-r from-[#111] to-transparent z-20" />
-  <div className="pointer-events-none absolute right-0 top-0 h-full w-10 bg-gradient-to-l from-[#111] to-transparent z-20" />
+    <div className="pointer-events-none absolute left-0 top-0 h-full w-10 bg-gradient-to-r from-[#111] to-transparent z-20" />
+    <div className="pointer-events-none absolute right-0 top-0 h-full w-10 bg-gradient-to-l from-[#111] to-transparent z-20" />
 
   {/* Top Row */}
-  <div className="flex animate-marquee whitespace-nowrap gap-1 mt-4 relative z-10">
-    {Array(2).fill(serviceList).flat().map((item, i) => (
-      <span
-        key={`top-${i}`}
-        className="bg-[#1c1c1c] text-white text-sm px-4 py-2 rounded-full border border-[#2a2a2a] hover:bg-yellow-500 hover:text-black transition"
-      >
-        {item}
-      </span>
-    ))}
-  </div>
+        <div className="flex animate-marquee whitespace-nowrap gap-1 mt-4 relative z-10">
+             {Array(2).fill(serviceList).flat().map((item, i) => (
+                <span
+                   key={`top-${i}`}
+                   className="bg-[#1c1c1c] text-white text-sm px-4 py-2 rounded-full border border-[#2a2a2a] hover:bg-yellow-500 hover:text-black transition"
+                >
+                   {item}
+                </span>
+             ))}
+        </div>
 
   {/* Bottom Row */}
   <div className="flex animate-marquee-reverse whitespace-nowrap gap-1 mt-4 relative z-10">
