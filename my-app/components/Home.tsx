@@ -122,7 +122,7 @@ export default function HeroSection() {
             <span className="text-gray-400">11 reviews</span>
           </div>
         </div>
-        <h1 className="text-[70px] font-500 leading-tight mb-6">
+        <h1 className="font-500 leading-tight mb-6 text-sm sm:text-base md:text-[70px]">
           Partner with a Full-Service<br />
           Design Team for All Your<br />
           Creative Needs
@@ -156,11 +156,11 @@ export default function HeroSection() {
           
           <div className="bg-[#141414] rounded-xl p-6 flex flex-col justify-center z-10 hover:scale-110 hover:shadow-2xl transform transition duration-300 ease-in-out">
             <div className = "flex flex-row justify-center mb-9">
-            <Image src = "/L-leaf.png" alt =  "left-leaf" width = {200} height = {400} />   
+            <Image src = "/L-leaf.png" alt =  "left-leaf" width = {150} height = {350}/>   
             <p className="text-[16px] italic text-gray-300 mb-0 text-center mx-5">
               An absolute professional who consistently delivers exceptional work, even under the most demanding deadlines. I appreciated the insightful feedback and innovative ideas introduced throughout the design process, which greatly enhanced the final product.
             </p>
-            <Image src = "/R-leaf.png" alt =  "left-leaf" width = {200} height = {400}/>
+            <Image src = "/R-leaf.png" alt =  "left-leaf" width = {150} height = {350}/>
             </div>
             <div className="text-sm flex flex-row justify-center gap-6">
               <p>Wade Warren</p>
@@ -328,7 +328,7 @@ export default function HeroSection() {
         <div className="inline-block bg-yellow-500/10 text-yellow-300 px-4 py-3 rounded-full text-sm mb-6 ">
           Benefits
         </div>
-        <h2 className="text-[54px] font-200 leading-snug mb-16 text-center">
+        <h2 className="sm:text-base md:text-[54px] font-200 leading-snug mb-16 text-center">
           Unlock a world of design<br /> potential with us
         </h2>
 
@@ -377,7 +377,7 @@ export default function HeroSection() {
     <div className="inline-block bg-yellow-500/10 text-yellow-300 px-4 py-1 rounded-full text-sm mb-6">
           Services
     </div>
-    <h2 className="text-[54px] font-200 leading-snug mb-12">
+    <h2 className="sm:text-base md:text-[54px] font-200 leading-snug mb-12">
           All you want, <br /> delivered on time
     </h2>
 
@@ -420,7 +420,7 @@ export default function HeroSection() {
         <div className="inline-block bg-yellow-500/10 text-yellow-300 px-4 py-1 rounded-full text-sm mb-6">
           Pricing
         </div>
-        <h2 className="text-[54px] font-200 leading-snug mb-16">
+        <h2 className="sm:text-base md:text-[54px] font-200 leading-snug mb-16">
           Choose the relevant plan to build,<br />grow and fasten your team
         </h2>
 
@@ -524,7 +524,7 @@ export default function HeroSection() {
         <div className="inline-block bg-yellow-500/10 text-yellow-300 px-4 py-1 rounded-full text-sm mb-6">
           Insights
         </div>
-        <h2 className="text-[54px] font-200 leading-snug mb-12">
+        <h2 className="sm:text-base md:text-[54px] font-200 leading-snug mb-12">
           Frequently asked<br />questions
         </h2>
 
@@ -555,7 +555,7 @@ export default function HeroSection() {
         <div className="inline-block bg-yellow-500/10 text-yellow-300 px-4 py-1 rounded-full text-sm mb-4">
           Testimonials
         </div>
-        <h2 className="text-[54px] font-200 leading-snug">
+        <h2 className="sm:text-base md:text-[54px] font-200 leading-snug">
           Read what our clients are<br />saying about us
         </h2>
       </div>
